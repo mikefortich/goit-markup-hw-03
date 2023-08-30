@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    
 </head>
 <body>
     <!-- Header Section -->
-    <header class="top-line">
-        <nav class="header-nav">
-            <a class="logo" href="index.html">
-                <p class="web">WEB<span class="header-studio">STUDIO</span></p>
-            </a>
+    <header class="page-header">
+        <div class="container-header">
+            <nav class="header-nav">
+                <a class="logo" href="index.html">
+                    <p class="web">WEB<span class="header-studio">STUDIO</span></p>
+                </a>
     
-            <ul class="nav-list">
-                <li><a class="nav-list-item" href="index.html">Studio</a></li>
-                <li><a class="nav-list-item" href="/portfolio.html">Porfolio</a></li>
-                <li><a class="nav-list-item" href="/">Contacts</a></li>
+                <ul class="nav-list">
+                    <li><a class="nav-list-item" href="index.html">Studio</a></li>
+                    <li><a class="nav-list-item" href="portfolio.html">Porfolio</a></li>
+                    <li><a class="nav-list-item" href="/">Contacts</a></li>
+                </ul>
+    
+            </nav>
+            <ul class="contact-list">
+                <li><a class="contact-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-list-item" href="tel:+11000111111">+11 (000) 111-11-11</a></li>
             </ul>
+        </div>
     
-        </nav>
-        <ul class="contact-list">
-            <li><a class="contact-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contact-list-item" href="tel:+11000111111">+11 (000) 111-11-11</a></li>
-        </ul>
     
     </header>
     <!-- Main Section -->
     <main>
-        <section class="main-section">
+        
         <!-- Filter Section -->
-        <div>
+        <div class="container">
             <ul class="filters">
                 <li><button class="filter-btn" type="button">All</button></li>
                 <li><button class="filter-btn" type="button">Web Site</button></li>
@@ -44,7 +48,9 @@
             </ul>
 
         </div>
+
         <!-- Projects Section-->
+        <section class="section">
         <div class="container">
             <ul class="tiles">
                 <li class="tiles-item"><img src="./images/bank-app-concept.jpg" alt="banking app pic" width="360">
