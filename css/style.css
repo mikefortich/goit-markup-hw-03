@@ -73,15 +73,10 @@ body {
     list-style: none;
     display: flex;
     margin-right: 50px;
-}
-.contact-list  {
     gap: 40px;
 }
 .contact-list-item {
     color: var(--slate);
-    
-}
-.contact-list-item {
     text-decoration: none;
 }
 .contact-list-item:hover {
@@ -118,15 +113,13 @@ body {
     text-decoration: none;
 }
 .section-hero {
-    position: relative;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .section-hero img {
     height: auto;
-    display: block;
-    
-    height: 600px;
-       
+    display: block;  
 }
 
 .hero-heading {
