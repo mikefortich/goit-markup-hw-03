@@ -38,7 +38,7 @@ body {
     padding: 20px;
     height: 72px;
     flex-shrink: 0;
-    border-bottom: 1px solid #E7E9FC
+    border-bottom: 1px solid #E7E9FC;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -253,6 +253,7 @@ body {
     gap: 24px;   
 }
 .card {
+    list-style: none;
     flex-basis: calc((100% - 72px) / 4);
     border: 0, 0, 1px 0;
     background: var(--white, #FFF);
@@ -262,10 +263,10 @@ body {
 }
 .team-card {
     background-color: var(--white);
-        padding: 20px 24px;
-        border: 1px solid #eeeeee;
-        border-top: 0;
-        gap: 8px;    
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+    gap: 8px;    
 }
 .tiles {
     display: flex;
